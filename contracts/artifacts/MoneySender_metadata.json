@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "moneySaver_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "moneySaver",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "etherAmount_",
+						"type": "uint256"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MoneySender.sol": "MoneySender"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MoneySender.sol": {
+			"keccak256": "0xc3892fb325b15117458e1231825be4fbcc2e286cf185e992cb5b681a83ef0083",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://3ca4d0715329ac45c85f20790793b5913eaa16287115318fa3e8d0da1134291b",
+				"dweb:/ipfs/QmURNJuHkXoM9xXmUcEUHf1jQh3j3F7z66LFMQB3QcMUVV"
+			]
+		},
+		"contracts/interfaces/IMoneySaver.sol": {
+			"keccak256": "0x266adbbeee6ab6c39f3677918379c06124ae14ea92f16f05635e25c4eee420e0",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://5bc597cdad712b9f8c5517ef1c13732defd4e1ee2e143e4954734814d3304181",
+				"dweb:/ipfs/QmdE5xohQ6zfFsdRm3u56MxQ2pHKDxcbhCQv7zKGFZfLE4"
+			]
+		}
+	},
+	"version": 1
+}
